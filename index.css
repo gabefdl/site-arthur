@@ -387,8 +387,13 @@ footer p {
 }
 
 @media screen and (min-width: 350px) and (max-width: 500px) {
+    header {
+        height: 40px;
+        background-color: rgba(19, 26, 19, 0.901);
+
+    }
     nav a {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 
     header a {
@@ -396,7 +401,7 @@ footer p {
     }
 
     img {
-        height: 300px;
+        height: 270px;
     }
     
     /* APRESENTAÇÃO */
@@ -523,7 +528,7 @@ footer p {
     }
     
     .feedbacks .caixa {
-        width: 40%;
+        width: 60%;
         height: 50px;
         margin-right: 20px;
     }
@@ -537,7 +542,7 @@ footer p {
     }
     
     .anonimo {
-        width: 40%;
+        width: 60%;
         margin-right: 20px;
         font-size: 3px;
         
@@ -562,7 +567,7 @@ footer p {
     /* ABA DE CONTATOS */
     
     .contato {
-        height: 330px;
+        height: 300px;
     }
     
     .contato .redes {
@@ -581,8 +586,8 @@ footer p {
     }
       
     .mapa img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
     
     .mapa p {
