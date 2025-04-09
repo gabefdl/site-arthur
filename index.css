@@ -396,25 +396,25 @@ footer p {
     }
 
     img {
-        height: 350px;
+        height: 300px;
     }
     
     /* APRESENTAÇÃO */
     .apresentacao {
-        height: 650px;
+        height: 550px;
     }
     
     .apresentacao > .textos {
         align-items: center;
         margin: 10px;
         width: 300px;
-        height: 500px;
+        height: 400px;
     }
     
     /* CSS dos textos */
     .textos h1 {
-        font-size: 1.5em;
-        line-height: 25px;
+        font-size: 1.3em;
+        line-height: 22px;
     }
     
     h2 {
@@ -423,29 +423,29 @@ footer p {
     }
     
     h3 {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     
     .textos p {
-        font-size: 1em;
+        font-size: 0.8em;
         text-align: center;
         margin-top: 10px;
     }
         
     .botao {
-        font-size: 1em;
+        font-size: 0.7em;
     }
     
     /* FOTO DO ARTHUR */
     
     .apresentacao >.foto {
-        height: 550px;
-        width: 300px;
+        height: 500px;
+        width: 350px;
     }
     
     /* SERVIÇOS OFERTADOS */
     .servicos {
-        height: 700px;
+        height: 650px;
     }
     
     .texto-central {
@@ -466,93 +466,97 @@ footer p {
     
     .balao1 {
         flex-flow: column-reverse;
-        width: 215px;
-        height: 215px;
-        font-size: 0.7em;
+        width: 180px;
+        height: 180px;
+        font-size: 0.6em;
         text-align: center;
     }
     
     .balao1 img {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
     
     .balao2 {
         flex-flow: column-reverse;
-        width: 215px;
-        height: 215px;
-        font-size: 0.7em;
+        width: 180px;
+        height: 180px;
+        font-size: 0.6em;
         text-align: center;
     }
     
     .balao2 img {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
     
     .balao3 {
         flex-flow: column;
-        width: 215px;
-        height: 215px;
-        font-size: 0.7em;
+        width: 180px;
+        height: 180px;
+        font-size: 0.6em;
         text-align: center;
     }
     
     .balao3 img {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
     
     .balao4 {
         flex-flow: column;
-        width: 215px;
-        height: 215px;
-        font-size: 0.65em;
+        width: 180px;
+        height: 180px;
+        font-size: 0.55em;
         text-align: center;
     }
     
     .balao4 img {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
 
     /* ABA DOS FEEDBACKS*/
     
     .feedbacks {
-        height: 170px;
+        height: 130px;
     }
     
     .feedbacks .caixa {
-        width: 37%;
-        height: 60px;
+        width: 40%;
+        height: 50px;
         margin-right: 20px;
+    }
+
+    .caixa .depoimentos {
+        margin: 5px;
     }
     
     .depoimentos p {
-        font-size: 0.52em;
+        font-size: 6px;
     }
     
     .anonimo {
-        width: 37%;
+        width: 40%;
         margin-right: 20px;
-        font-size: 0.4em;
+        font-size: 3px;
         
     }
     
     #voltar, #avancar {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
     }
     
     /* INFOS */
     
     .banners {
-        height: 70px;
+        height: 50px;
     }
     
     .banners img {
-        width: 100px;
-        height: 25px;
+        width: 80px;
+        height: 20px;
     }
 
     /* ABA DE CONTATOS */
@@ -562,18 +566,18 @@ footer p {
     }
     
     .contato .redes {
-        height: 230px;
+        height: 180px;
     }
     
     .redes img {
-        width: 130px;
-        height: 30px;
+        width: 100px;
+        height: 20px;
         margin: 4px;
     }
     
     .redes .Logo {
-        width: 100px;
-        height: 50px;
+        width: 80px;
+        height: 40px;
     }
       
     .mapa img {
