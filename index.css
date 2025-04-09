@@ -58,7 +58,7 @@ header a:hover {
     padding: 10px 
 }
 
-img {
+ img {
     height: 800px;
     width: 100%;
 }
@@ -384,4 +384,212 @@ footer {
 footer p {
     font-family: "geosans";
     color: white;
+}
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
+    nav a {
+        font-size: 0.8em;
+    }
+
+    header a {
+        margin: 20px;
+    }
+
+    img {
+        height: 350px;
+    }
+    
+    /* APRESENTAÇÃO */
+    .apresentacao {
+        height: 650px;
+    }
+    
+    .apresentacao > .textos {
+        align-items: center;
+        margin: 10px;
+        width: 300px;
+        height: 500px;
+    }
+    
+    /* CSS dos textos */
+    .textos h1 {
+        font-size: 1.5em;
+        line-height: 25px;
+    }
+    
+    h2 {
+        display: none;
+        font-size: 1.3em;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+    
+    .textos p {
+        font-size: 1em;
+        text-align: center;
+        margin-top: 10px;
+    }
+        
+    .botao {
+        font-size: 1em;
+    }
+    
+    /* FOTO DO ARTHUR */
+    
+    .apresentacao >.foto {
+        height: 550px;
+        width: 300px;
+    }
+    
+    /* SERVIÇOS OFERTADOS */
+    .servicos {
+        height: 700px;
+    }
+    
+    .texto-central {
+    width: 300px;
+    }
+    
+    .texto-central h1 {
+        font-size: 2.2em;
+        line-height: 35px;
+    }
+    
+    
+    .baloes {
+        height: 500px;
+        width: 95%;
+        margin-top: 20px;
+    }
+    
+    .balao1 {
+        flex-flow: column-reverse;
+        width: 215px;
+        height: 215px;
+        font-size: 0.7em;
+        text-align: center;
+    }
+    
+    .balao1 img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .balao2 {
+        flex-flow: column-reverse;
+        width: 215px;
+        height: 215px;
+        font-size: 0.7em;
+        text-align: center;
+    }
+    
+    .balao2 img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .balao3 {
+        flex-flow: column;
+        width: 215px;
+        height: 215px;
+        font-size: 0.7em;
+        text-align: center;
+    }
+    
+    .balao3 img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .balao4 {
+        flex-flow: column;
+        width: 215px;
+        height: 215px;
+        font-size: 0.65em;
+        text-align: center;
+    }
+    
+    .balao4 img {
+        height: 50px;
+        width: 50px;
+    }
+
+    /* ABA DOS FEEDBACKS*/
+    
+    .feedbacks {
+        height: 170px;
+    }
+    
+    .feedbacks .caixa {
+        width: 37%;
+        height: 60px;
+        margin-right: 20px;
+    }
+    
+    .depoimentos p {
+        font-size: 0.52em;
+    }
+    
+    .anonimo {
+        width: 37%;
+        margin-right: 20px;
+        font-size: 0.4em;
+        
+    }
+    
+    #voltar, #avancar {
+        width: 15px;
+        height: 15px;
+    }
+    
+    /* INFOS */
+    
+    .banners {
+        height: 70px;
+    }
+    
+    .banners img {
+        width: 100px;
+        height: 25px;
+    }
+
+    /* ABA DE CONTATOS */
+    
+    .contato {
+        height: 330px;
+    }
+    
+    .contato .redes {
+        height: 230px;
+    }
+    
+    .redes img {
+        width: 130px;
+        height: 30px;
+        margin: 4px;
+    }
+    
+    .redes .Logo {
+        width: 100px;
+        height: 50px;
+    }
+      
+    .mapa img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .mapa p {
+        font-size: 0.7em;
+    }
+    
+    footer {
+        height: 20px;
+    }
+    
+    footer p {
+        font-size: 0.7em;
+    }
 }
