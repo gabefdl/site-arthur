@@ -369,6 +369,7 @@ width: 600px;
 
 .mapa p {
     color: white;
+    text-align: center;
     font-family: "geosans";
     font-size: 1.2em;
 }
