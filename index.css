@@ -131,7 +131,7 @@ h3 {
 .apresentacao >.foto {
     height: 600px;
     width: 400px;
-    background-image: url(/fotos/foto-arthur.png);
+    background-image: url(./fotos/foto-arthur.png);
     background-size: cover;
 }
 
@@ -142,7 +142,7 @@ h3 {
     align-items: center;
     justify-content: center;
     height: 750px;
-    background-image: url(/Fundos/fundo-servicos.jpg);
+    background-image: url(./Fundos/fundo-servicos.jpg);
     background-size: cover;
 }
 
@@ -243,7 +243,7 @@ width: 600px;
     align-items: center;
     justify-content: flex-end;
     height: 400px;
-    background-image: url(/Fundos/fundo-feedbacks.png);
+    background-image: url(./Fundos/fundo-feedbacks.png);
     background-size: cover;
 }
 
@@ -333,7 +333,7 @@ width: 600px;
     justify-content: space-evenly;
     align-items: center;
     height: 600px;
-    background-image: url(/Fundos/fundo-contatos.jpg);
+    background-image: url(./Fundos/fundo-contatos.jpg);
     background-size: cover;
 }
 
