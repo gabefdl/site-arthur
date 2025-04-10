@@ -31,7 +31,7 @@ html, body {
 
 header {
     position: fixed;
-    display: flex;
+    display: static;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -140,16 +140,9 @@ h3 {
     background-size: cover;
 }
 
-.texto-central {
-width: 600px;
-}
-
-.texto-central h1 {
-    color: white;
-    font-size: 4em;
-    text-align: center;
-    font-family: "milestone";
-    line-height: 60px;
+.comoumpsi {
+    position: relative;
+    width: 100%;
 }
 
 
@@ -649,6 +642,7 @@ footer p {
     /* ABA DE CONTATOS */
     
     .contato {
+        background-image: url(./Fundos/fundo-contato-mobile.png);
         height: 830px;
         flex-flow: column-reverse;
     }
