@@ -601,10 +601,10 @@ footer p {
         margin-right: 0px;
         font-weight: bolder;
         font-size: 1.2em;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         padding: 5px 20px;
         border-radius: 15px;
-        color: black;
+        color: #14150a;
     }
 
     .caixa .depoimentos {
@@ -617,6 +617,7 @@ footer p {
     
     .anonimo {
         width: 80%;
+        text-align: center;
         margin-top: 15px;
         margin-right: 0px;
         margin-bottom: 10px;
