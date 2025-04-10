@@ -173,6 +173,7 @@ width: 600px;
     background-color: #222216;
     font-family: "Agrandir";
     border-radius: 30px;
+    text-align: end;
     color: white;
 }
 
@@ -192,6 +193,7 @@ width: 600px;
     height: 180px;
     background-color: #222216;
     font-family: "Agrandir";
+    text-align: end;
     border-radius: 30px;
     color: white;
 }
