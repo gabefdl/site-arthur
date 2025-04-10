@@ -441,13 +441,14 @@ footer p {
         align-items: center;
         margin: 10px;
         width: 50%;
-        height: 390px;
+        height: 420px;
     }
 
     .intro {
         position: relative;
         width: 100%;
         height: 100px;
+        margin-bottom: 10px;
 
     }
     
@@ -488,7 +489,7 @@ footer p {
     
     /* SERVIÇOS OFERTADOS */
     .servicos {
-        height: 650px;
+        height: 780px;
     }
     
     .texto-central {
@@ -506,7 +507,7 @@ footer p {
         flex-flow: column wrap;
         align-items: center;
         justify-content: space-evenly;
-        height: 500px;
+        height: 620px;
         width: 95%;
         margin-top: 20px;
     }
@@ -515,8 +516,8 @@ footer p {
         position: relative;
         flex-flow: row;
         width: 90%;
-        height: 80px;
-        font-size: 0.7em;
+        height: 120px;
+        font-size: 0.9em;
         text-align: end;
         border-radius: 20px;
         justify-content: space-between;
@@ -524,16 +525,16 @@ footer p {
     
     .balao1 img {
         margin: 10px;
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
     }
     
     .balao2 {
         position: relative;
         flex-flow: row;
         width: 90%;
-        height: 80px;
-        font-size: 0.7em;
+        height: 120px;
+        font-size: 0.9em;
         text-align: start;
         border-radius: 20px;
         justify-content: space-between;
@@ -541,16 +542,16 @@ footer p {
     
     .balao2 img {
         margin: 10px;
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
     }
     
     .balao3 {
         position: relative;
         flex-flow: row;
         width: 90%;
-        height: 80px;
-        font-size: 0.7em;
+        height: 120px;
+        font-size: 0.85em;
         text-align: end;
         border-radius: 20px;
         justify-content: space-between;
@@ -558,16 +559,16 @@ footer p {
     
     .balao3 img {
         margin: 10px;
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
     }
     
     .balao4 {
         position: relative;
         flex-flow: row;
         width: 90%;
-        height: 80px;
-        font-size: 0.65em;
+        height: 120px;
+        font-size: 0.77em;
         text-align: start;
         border-radius: 20px;
         justify-content: space-between;
@@ -575,8 +576,8 @@ footer p {
     
     .balao4 img {
         margin: 10px;
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
     }
 
     /* ABA DOS FEEDBACKS*/
