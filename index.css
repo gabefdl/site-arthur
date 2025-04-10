@@ -58,11 +58,14 @@ header a:hover {
     padding: 10px 
 }
 
- img {
+ .fundohome img {
     height: 800px;
     width: 100%;
 }
 
+.fundologo {
+    display: none ;
+}
 /* APRESENTAÇÃO */
 .apresentacao {
     display: flex;
@@ -389,6 +392,7 @@ footer p {
 
 @media screen and (min-width: 350px) and (max-width: 500px) {
     header {
+        position: static;
         height: 40px;
         background-color: rgba(19, 26, 19, 0.901);
 
@@ -401,9 +405,28 @@ footer p {
         margin: 20px;
     }
 
-    img {
-        height: 270px;
+
+    .fundohome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+        background-image: url(./Fundos/fundo-homesemlogo.jpg);
+        background-position: center right;
+        background-size: cover;
     }
+
+    .fundohome .Home {
+        display: none;
+    }
+
+    img.fundologo {
+        display: block;
+        height: 250px;
+        width: 300px;
+    }    
+
+   
     
     /* APRESENTAÇÃO */
     .apresentacao {
