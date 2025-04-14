@@ -30,7 +30,6 @@ html, body {
 }
 
 header {
-    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,12 +57,12 @@ header a:hover {
     padding: 10px 
 }
 
- .fundohome img {
+ .fundohome .Home {
     height: 800px;
     width: 100%;
 }
 
-.fundologo {
+.fundohome .fundologo {
     display:  none;
 }
 /* APRESENTAÇÃO */
@@ -392,7 +391,8 @@ footer p {
     color: white;
 }
 
-@media screen and (min-width: 350px) and (max-width: 500px) {
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
     header {
         height: 40px;
         background-color: #14150afc;
@@ -680,5 +680,110 @@ footer p {
     
     footer p {
         font-size: 0.7em;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 375px) {
+    nav a {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width: 700px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170%;
+        height: 70px;
+        background-color: #14150a;
+    
+    }
+    .fundohome {
+        width: 170%;
+    }
+
+    .apresentacao {
+        width: 167%;
+    }
+
+    .servicos {
+        width: 170%;
+    }
+
+    .feedbacks {
+        width: 170%;
+    }
+
+    .banners {
+        width: 170%;
+    }
+
+    .contato {
+        width: 170%;
+    }
+
+    footer {
+        width: 170%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    header {
+        width: 150%;
+    }
+    
+    nav {
+        font-size: 1.4em;
+    }
+    
+    .fundohome {
+        width: 150%;
+    }
+    
+     .fundohome .Home {
+        height: 900px;
+    }
+    
+    /* APRESENTAÇÃO */
+    .apresentacao {
+        width: 150%;
+    }
+    
+    /* SERVIÇOS OFERTADOS */
+    .servicos {
+        width: 150%;
+    }
+    
+    .feedbacks {
+        width: 150%;
+    }
+    
+    .feedbacks .caixa {
+        margin-right: 120px;
+    }
+    
+    .text-feed {
+        margin-right: 120px;
+    }
+    
+    .depoimentos p {
+        font-size: 1.1em;
+    }
+    
+    .anonimo {
+        margin-right: 120px;
+    }
+        
+    .banners {
+        width: 150%;
+    }
+    
+    .contato {
+        width: 150%;
+    }
+ 
+    footer {
+        width: 150%;
     }
 }
